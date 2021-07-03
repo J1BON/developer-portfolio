@@ -40,3 +40,38 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.third-section {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 100px;
+}
+
+.exprience-box {
+    display: flex;
+}
+
+.exprience-content {
+    width: 35%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 25px;
+    box-shadow: 20px 20px 40px gray;
+}
+
+#box-1 {
+    border-image: linear-gradient(purple, orange);
+    border-image-slice: 1;
+    border-left: 10px solid;
+}
+
+#box-2 {
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 10px solid;
+}
+
+footer p {
+    text-align: center;
+}
