@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-.main-container {
+.flex-section {
     display: flex;
 }
 
@@ -23,13 +23,20 @@ h1 {
 .orange-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 40px;
+    padding: 10px 30px;
     font-weight: 700;
     color: white;
     border-radius: 5px;
 }
 
-.main-container {
+.frist-section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.second-section {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
