@@ -9,7 +9,7 @@ body {
 
 .half-width {
     width: 50%;
-    padding-left: 50px;
+    padding-left: 5%;
 }
 
 h1 {
@@ -18,4 +18,18 @@ h1 {
 
 .orange-name {
     color: #FFA500;
+}
+
+.orange-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    font-weight: 700;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-container {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
